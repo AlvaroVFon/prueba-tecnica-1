@@ -1,0 +1,53 @@
+{
+  "productos": [
+    {
+      "stock": 10,
+      "productType": "Electronics",
+      "price": 99.99,
+      "name": "Smartphone",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 5,
+      "productType": "Clothing",
+      "price": 49.99,
+      "name": "T-Shirt",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 2,
+      "productType": "Home",
+      "price": 199.99,
+      "name": "Vacuum Cleaner",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 1,
+      "productType": "Electronics",
+      "price": 299.99,
+      "name": "Tablet",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 0,
+      "productType": "Home",
+      "price": 399.99,
+      "name": "Television",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 3,
+      "productType": "Clothing",
+      "price": 29.99,
+      "name": "Socks",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "stock": 0,
+      "productType": "Home",
+      "price": 999.99,
+      "name": "Refrigerator",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    }
+  ]
+}
