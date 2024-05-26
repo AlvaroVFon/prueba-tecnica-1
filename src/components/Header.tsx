@@ -1,7 +1,4 @@
-interface Link {
-  label: string
-  url: string
-}
+import { Link } from '../types'
 const Header = ({ title, links }: { title: string; links?: Link[] }) => {
   return (
     <header className='flex justify-center items-center p-5 bg-[#6374ae] text-white'>

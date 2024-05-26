@@ -1,6 +1,7 @@
 {
-  "productos": [
+  "products": [
     {
+      "id": 1,
       "stock": 10,
       "productType": "Electronics",
       "price": 99.99,
@@ -8,6 +9,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 2,
       "stock": 5,
       "productType": "Clothing",
       "price": 49.99,
@@ -15,6 +17,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 3,
       "stock": 2,
       "productType": "Home",
       "price": 199.99,
@@ -22,6 +25,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 4,
       "stock": 1,
       "productType": "Electronics",
       "price": 299.99,
@@ -29,6 +33,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 5,
       "stock": 0,
       "productType": "Home",
       "price": 399.99,
@@ -36,6 +41,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 6,
       "stock": 3,
       "productType": "Clothing",
       "price": 29.99,
@@ -43,6 +49,7 @@
       "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
     },
     {
+      "id": 7,
       "stock": 0,
       "productType": "Home",
       "price": 999.99,

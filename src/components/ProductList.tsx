@@ -1,11 +1,5 @@
 import Product from './Product'
-export interface IProduct {
-  stock: number
-  productType: string
-  price: number
-  name: string
-  image: string
-}
+import { IProduct } from '../types'
 const ProductLicst = ({ products }: { products: IProduct[] }) => {
   return (
     <div className='grid grid-cols-2 gap-3'>

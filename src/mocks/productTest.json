@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "stock": 120,
+      "productType": "Electronics",
+      "price": 299.99,
+      "name": "Smartphone XYZ",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "id": 2,
+      "stock": 50,
+      "productType": "Home Appliance",
+      "price": 89.99,
+      "name": "Blender 3000",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "id": 3,
+      "stock": 200,
+      "productType": "Books",
+      "price": 15.99,
+      "name": "Learn Python Programming",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "id": 4,
+      "stock": 75,
+      "productType": "Clothing",
+      "price": 49.99,
+      "name": "Men's Leather Jacket",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    },
+    {
+      "id": 5,
+      "stock": 30,
+      "productType": "Fitness",
+      "price": 59.99,
+      "name": "Yoga Mat Pro",
+      "image": "https://placehold.co/200x300/6374ae/FFFFFF/png"
+    }
+  ]
+}

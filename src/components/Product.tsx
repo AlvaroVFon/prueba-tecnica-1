@@ -1,10 +1,12 @@
-import { IProduct } from './ProductList'
+import { ICartProduct, IProduct, ICartProductList } from '../types'
 import { useState, useEffect } from 'react'
+import useCart from '../hook/useCart'
 const Product = ({ product }: { product: IProduct }) => {
   const [desiredQuantity, setDesiredQuantity] = useState(0)
   const [error, setError] = useState<string>()
   const [noStock, setNoStock] = useState<string>()
 
+  const { addProduct } = useCart()
   useEffect(() => {
     if (product.stock === 0) setNoStock('Out of stock')
   }, [product.stock])
@@ -20,6 +22,14 @@ const Product = ({ product }: { product: IProduct }) => {
   }
   const addToCart = (): void => {
     setDesiredQuantity(0)
+    const item: ICartProduct = {
+      id: product.id,
+      name: product.name,
+      quantity: desiredQuantity,
+      unitPrice: product.price,
+    }
+
+    addProduct(item)
   }
   return (
     <div className=''>
@@ -30,9 +40,7 @@ const Product = ({ product }: { product: IProduct }) => {
         <img
           src={product.image}
           alt='Product image'
-          width={200}
-          height={300}
-          className='rounded'
+          className='rounded w-[200px] h-[300px]'
         />
         <p>{product.name}</p>
         <div className='flex items-center justify-between gap-3 w-full p-2'>
@@ -56,6 +64,7 @@ const Product = ({ product }: { product: IProduct }) => {
           <button
             onClick={() => addToCart()}
             className=''
+            disabled={desiredQuantity === 0}
           >
             Add to cart
           </button>
